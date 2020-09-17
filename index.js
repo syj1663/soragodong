@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '!send') {
+  if(message.content === '!!send') {
     message.reply('안돼');
   }
 });
