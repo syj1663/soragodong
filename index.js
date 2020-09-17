@@ -32,8 +32,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '섹') {
-    return message.reply('스');
+  if(message.content == '-..-') {
+    return message.reply('축하합니다! 씨발님 당신은 이스터에그를 발견했습니다!!!');
   }
 
   if(message.content == 'embed') {
